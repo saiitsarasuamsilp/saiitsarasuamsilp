@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="th">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ติดต่อ — saiitsarasuamsilp</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a class="brand" href="index.html"><div class="logo">SS</div><div class="title"><h1>saiitsarasuamsilp</h1><p>ของเก่าเล่าเรื่อง</p></div></a>
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a><a href="products.html">สินค้า</a><a href="gallery.html">แกลเลอรี</a><a href="about.html">เกี่ยวกับ</a><a href="contact.html">ติดต่อ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-grid">
+        <div class="form">
+          <h3 style="font-family:Playfair Display;margin-top:0">สั่งซื้อ / ติดต่อ</h3>
+          <p class="small">กรอกแบบฟอร์มนี้เพื่อจัดเตรียมข้อความ — ระบบจะช่วยคัดลอกหรือเปิดอีเมล (แก้ recipient ใน assets/script.js)</p>
+          <form id="contactForm">
+            <input class="input" type="text" name="name" placeholder="ชื่อผู้ติดต่อ (เช่น นายสมชาย)" required>
+            <input class="input" type="text" name="phone" placeholder="เบอร์ติดต่อ / LINE ID" required>
+            <textarea class="input" name="message" rows="6" placeholder="รายละเอียดคำสั่ง (ชื่อสินค้า, ขนาด, จำนวน, ที่อยู่สำหรับจัดส่ง)"></textarea>
+            <button class="btn" type="submit">ส่งคำสั่ง / คัดลอก</button>
+          </form>
+        </div>
+
+        <aside class="socials">
+          <div>
+            <strong>ช่องทางแชท</strong>
+            <p class="small">กดหนึ่งในลิงก์ด้านล่างเพื่อติดต่อโดยตรง</p>
+          </div>
+          <a href="https://facebook.com/yourpage" target="_blank">Facebook: /yourpage</a>
+          <a href="https://instagram.com/yourhandle" target="_blank">Instagram: @yourhandle</a>
+          <a href="https://line.me/R/ti/p/yourid" target="_blank">LINE: @yourid หรือคลิกเพื่อแชท</a>
+
+          <div style="margin-top:12px">
+            <strong>หมายเหตุ</strong>
+            <p class="small">แก้ไขลิงก์ในไฟล์ assets/script.js และ contact.html ให้เป็นลิงก์จริงของร้าน เพื่อให้ลูกค้าติดต่อได้ทันที</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="footer">© saiitsarasuamsilp</footer>
+  </div>
+<script src="assets/script.js"></script>
+</body>
+</html>
